@@ -61,6 +61,15 @@ aayengi, yehi proof hai ke system kaam kar raha hai.
 python redundancy.py --aws --cleanup
 ```
 
+## Screenshots (proof of run)
+
+1. Local run + boto3 check:
+![Local run](screenshots/01-local-run-boto3-check.png)
+2. AWS run + DynamoDB scan (verify):
+![AWS run and scan](screenshots/02-aws-run-and-scan.png)
+3. Scan result (Count: 2) + cleanup:
+![Scan and cleanup](screenshots/03-scan-and-cleanup.png)
+
 ## GitHub (CodeAlpha ki requirement)
 
 Repo ka naam PDF ke rule ke mutabiq: **`CodeAlpha_DataRedundancyRemovalSystem`**
